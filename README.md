@@ -18,30 +18,35 @@ Features list(including scripts responsible for the operation of this features):
   - Attack at the right distance. <br/>
   - Scripts:
     - [EnemyAI.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/EnemiesAI/Bandit/EnemyAI.cs) <br/>
+    - [FightController.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/FightController.cs)<br/>
 - **AI Boss that has:** <br/>
   - Draw an attack to perform.<br/>
   - Attack at the right distance. <br/>
   - Phases that change after losing health. Increasing the frequency of attacks and movement speed.
   - Scripts: 
     - [BossAI.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/tree/main/Scripts/EnemiesAI/Boss) <br/>
+    - [BossFightController.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/BossFightController.cs)<br/>
 - **Respawn**
   - After death, the player can respawn at the checkpoint
   - Scripts:
-    - [CheckPointController.cs] (https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/CheckPointController.cs)
-- **System of upgrading statistics** <br/>
-  - Possibility to upgrade stats such as: <br/>
-    - Health
-    - Damage
-    - Attack speed
-    - Movement speed
-  - Scripts: UpgradePanelUI.cs<br/>
-- **Equipment**<br/>
-  - Coins.<br/>
-  - Scripts: InventoryManager.cs<br/>
-- **An interactive door that opens when the player approaches if the waves are not turned on and the wave is not currently in progress.** <br/>
-  - Scripts: DeviceTrigger.cs, DoorOpenDevice.cs<br/> 
-- **Interactive buttons in the Main Menu and the Game Over screen**<br/>
-  - Scripts: MainMenu.cs, EventButttons.cs<br/> 
+    - [CheckPointController.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/CheckPointController.cs)<br/>
+    - [RespawnController.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/RespawnController.cs)<br/>
+- **UI includes:** <br/>
+  - Points Counter
+  - Boss Token and Health Points
+  - Death Screen
+  - Win Screen
+  - Game Over Screen
+  - Scripts:
+    - [PointsController.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/PointsController.cs)<br/>
+    - [HealthControllerUI.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/HealthControllerUI.cs)<br/>
+    - [DeathScreenController.cs)](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/DeathScreenController.cs)<br/>
+    - [WinController.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/WinController.cs)<br/>
+    - [ButtonInGame.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/ButtonInGameController.cs)<br/>
+- **Traps:**<br/>
+  - Traps that activate at specific time.
+  - Scripts:
+    - [TrapController.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/blob/main/Scripts/Controllers/TrapController.cs)<br/> 
 <br/>
 You can test the game here:<br/>
-https://kacpersky.itch.io/plush-toy-attack
+https://kacpersky.itch.io/bandit-raid
