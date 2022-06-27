@@ -1,4 +1,10 @@
 # Bandit-Raid--Unity
+You can test the game here:<br/>
+https://kacpersky.itch.io/bandit-raid<br/>
+
+You can watch the gameplay here:<br/>
+https://www.youtube.com/watch?v=Xi4ZBXI8eWU<br/>
+<br/>
 This is a 2d project made in Unity.<br/>
 This is a platform game.<br/>
 The player takes on the role of a monk whose temple was attacked by bandits, and his only form of attack is a jump kick.<br/>
@@ -24,7 +30,7 @@ Features list(including scripts responsible for the operation of this features):
   - Attack at the right distance. <br/>
   - Phases that change after losing health. Increasing the frequency of attacks and movement speed.
   - Scripts: 
-    - [BossAI.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/tree/main/Scripts/EnemiesAI/Boss) <br/>
+    - [BossAI.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/tree/main/Assets/Scripts/EnemiesAI/Boss/BossAI.cs) <br/>
     - [BossFightController.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/tree/main/Assets/Scripts/Controllers/BossFightController.cs)<br/>
 - **Respawn**
   - After death, the player can respawn at the checkpoint
@@ -48,5 +54,3 @@ Features list(including scripts responsible for the operation of this features):
   - Scripts:
     - [TrapController.cs](https://github.com/KacperSkyKS/Bandit-Raid--Unity/tree/main/Assets/Scripts/Controllers/TrapController.cs)<br/> 
 <br/>
-You can test the game here:<br/>
-https://kacpersky.itch.io/bandit-raid
