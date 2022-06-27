@@ -10,6 +10,8 @@ This is a platform game.<br/>
 The player takes on the role of a monk whose temple was attacked by bandits, and his only form of attack is a jump kick.<br/>
 The game perspective is third-person.<br/>
 <br/>
+Written scripts are located under the path:<br/>
+Assets > Scripts <br/>
 <br/>
 Features list(including scripts responsible for the operation of this features):<br/>
 - **Movement/Jump/Picking/Attack**<br/>
